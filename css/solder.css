@@ -1,0 +1,81 @@
+body{
+	background-image: url(../assets/img/calculator_background.jpg);
+	display:flex; flex-direction:column; justify-content:center;
+    min-height:100vh;
+    margin: 0 auto;
+}
+
+h1{
+	font-family: 'Aldrich',fantasy;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-size:3em;
+	text-shadow: 2px 2px 2px black;
+}
+
+div{
+	background-color: white;
+	border-radius: 10px;
+	margin: 10px;
+	margin-bottom: 20px;
+	padding: 5px 20px;
+	box-shadow:5px 5px 5px black;
+	font-family: 'Arya',sans-serif;
+	font-weight: bold;
+}
+
+h2{
+	font-family: 'Alata',sans-serif;
+}
+
+#calculate{
+	border: none;
+	color: white;
+	background: rgb(0,77,153);
+    background: radial-gradient(circle, rgba(0,77,153,1) 0%, rgba(2,0,36,1) 100%);
+	border-radius: 5px;
+	font-family: 'Aldrich',sans-serif;
+	font-weight:  bold;
+	box-shadow: 2px 2px 10px black;
+	width: 100%;
+	text-align: center;
+	font-size:1em;
+	margin-bottom: 20px;
+	padding: 5px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s 0s ease;
+	-moz-transition: all 0.5s 0s ease;
+	-o-transition: all 0.5s 0s ease;
+	transition: all 0.5s 0s ease;
+	text-transform: uppercase;
+}
+
+input{
+	width: 100%;
+	text-align: right;
+}
+
+#user{
+	background: rgb(0,77,153);
+    background: linear-gradient(270deg, rgba(0,77,153,1) 0%, rgba(2,0,36,1) 100%);
+	color:  white;
+	animation-duration: 3s;
+	animation-name:;
+	width: 50%;
+	margin: 10px auto;
+	font-size: 1em;
+}
+
+.temp{
+	animation-duration: 3s;
+	animation-name: slide-bck-center;
+	width: 50%;
+	padding-top: 20px;
+	font-size: 1.25em;
+	margin: 10px auto;
+	animation-name: bounceIn;
+	animation-duration: 3s;
+	margin-bottom: 40px;
+	padding-bottom: 5px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SMS</title>
+	<link rel="icon" type="image/x-icon" href="../assets/img/icon.ico" />
+	<link rel="stylesheet" type="text/css" href="../css/solder.css">
+	<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Arya' rel='stylesheet'>
+	<script type="text/javascript" src="../js/solder.js"></script>
+</head>
+<body>
+	<h1>Solder Material Selector</h1>
+	<div id="user">USER INPUT</div>
+	<div class="temp">
+		Solidus:
+		<select id="solidous">
+			<option>58</option>
+			<option>79</option>
+			<option>118</option>
+			<option>177</option>
+			<option>183</option>
+			<option>199</option>
+			<option>200</option>
+			<option>217</option>
+			<option>220</option>
+			<option>221</option>
+			<option>226</option>
+			<option>265</option>
+			<option>338</option>
+			<option>370</option>
+		</select>
+		 &#8728c<br><hr>
+
+		Liquidus:
+		<select id="liquidous">
+            <option>58</option>
+            <option>91</option>
+            <option>125</option>
+            <option>190</option>
+            <option>215</option>
+            <option>220</option>
+            <option>222</option>
+            <option>225</option>
+            <option>229</option>
+            <option>260</option>
+            <option>288</option>
+            <option>300</option>
+            <option>363</option>
+            <option>393</option>
+		</select>
+		&#8728c<br>
+
+		<button onclick="alloy()" id="calculate">Submit</button>
+	</div>
+	<br><br>
+	<div id="user">Material that we should use</div>
+	<div class="temp">
+		SOLDERING ALLOY:<input type="text" id="alloy"><br><hr>
+		COMMON NAME:<input type="text" id="name"><br><hr>
+		TOXIC:<input type="text" id="toxic"><br><hr>
+		EUTECTIC:<input type="text" id="eutectic"><br>
+	</div>
+</body>
+</html>
